@@ -27,12 +27,12 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  gap: 20px;
+  gap: 40px;
 }
 .header_top a {
   font-weight: 500;
   color: #fc8f49;
-  font-size: 17px;
+  font-size: 18px;
 }
 .header_bottome {
   display: flex;
