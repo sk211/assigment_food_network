@@ -18,6 +18,10 @@ header {
   height: 100vh;
   margin: 0 80px;
 }
+section{
+  padding:50px 0;
+  
+}
 .header_top ul {
   display: flex;
   flex-direction: row;
@@ -56,12 +60,14 @@ header {
   font-size: 16px;
 }
 .btn_link {
-  background-image: linear-gradient(to right,  #fba24f, #ff1e1e);
-  display: inline;
-  width: 100px;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: 20px;
+     background-image: linear-gradient(to right, #fba24f, #ff1e1e);
+    display: inline;
+    width: 105px;
+    color: #fff;
+    padding: 15px 24px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 500;
 }
 .header_right {
   width: 50%;
@@ -82,6 +88,7 @@ header {
   display: flex;
   flex-direction: row;
   padding:30px 0;
+  
 
 }
 .about_left{
@@ -103,10 +110,53 @@ header {
 .about_right h2{
   width:540px;
   color:#707070;
-  font-size:40px
+  font-size:40px;
+  text-shadow: 2px 2px 5px #9e8585;
 }
 .about_right p{
   width:540px;
-  font-size:18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 31px;
+  color: #828282;
+}
+
+/* recipies style  */
+#recipies{
+  width:1240px;
+  margin:0 80px;
+}
+.recipies_top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.recipies_top h2{
+ color:#676767;
+ font-size: 30px;
+}
+.recipies_top p{
+  width:600px;
+  text-align: center;
+  font-size: 15px;
+  color:#252525;
+  line-height: 25px;
+}
+.recipies_bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    width: 333px;
+    box-shadow: 2px 2px 15px 0px #727272;
+        border-radius: 15px;
+}
+.car_inside {
+    padding: 15px;
+}
+
+.card p {
+    color: #727272;
+    font-size: 15px;
 }
