@@ -69,7 +69,7 @@ header {
   border-radius: 20px;
   font-size: 17px;
   font-weight: 500;
-  margin:20px 0;
+  margin: 20px 0;
 }
 .header_right {
   width: 50%;
@@ -92,9 +92,9 @@ header {
   background-size: cover;
   display: flex;
   flex-direction: row;
-  margin-top:80px;
-     padding-bottom: 0;
-     padding-top: 15px;
+  margin-top: 80px;
+  padding-bottom: 0;
+  padding-top: 15px;
 }
 .about_left {
   width: 50%;
@@ -138,6 +138,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 12px;
 }
 .recipies_top h2 {
   color: #676767;
@@ -147,7 +148,7 @@ header {
   width: 600px;
   text-align: center;
   font-size: 15px;
-  color: #252525;
+  color: #828282;
   line-height: 25px;
 }
 .recipies_bottom {
